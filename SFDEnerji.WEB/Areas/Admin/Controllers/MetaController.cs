@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SFDEnerji.Models.Concrete;
+using SFDEnerji.Repository.Shared.Concrete;
 
 namespace SFDEnerji.WEB.Areas.Admin.Controllers
 {
@@ -6,6 +8,7 @@ namespace SFDEnerji.WEB.Areas.Admin.Controllers
     {
         public IActionResult Index()
         {
+            
             return View();
         }
     }
